@@ -1,0 +1,36 @@
+body {     
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    background-color: #A2D9CE;      
+}
+
+h1 {       
+    text-align: center; 
+}
+
+table {     
+    width: 100%;    
+    border-collapse: collapse; 
+    margin-top: 20px;   
+}
+
+table, th, td {       
+    border: 1px solid white;    
+}
+
+th, td {    
+    padding: 15px;  
+    text-align: center; 
+}
+
+th {        
+    background-color: #34495E;   
+    color: white;   
+}
+
+tr:nth-child(even) {    
+    background-color: #F6DDCC;  
+}
+
+tr:nth-child(odd) { 
+    background-color: #D6EAF8;  
+}
